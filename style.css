@@ -44,13 +44,27 @@
 #search-button:hover {
     background-color: #dc7129;
 }
+.card-content {
+    flex: 1;
+}
+
+
+.card-body{
+    flex: 2;
+    margin-left: 20px;
+    margin-top: 25px;
+}
 
 .card{
     padding: 20px;
     margin-top: 20px;
     margin-left: 100px;
     border: 2px solid black;
-    width: 800px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    
 }
 
 .card-like{
@@ -66,10 +80,27 @@
     background-color: gold;
 }
 
+.subrayado {
+    text-decoration: underline;
+    color: blue;
+}
 .definition{
     padding: 20px;
     margin-top: 20px;
     margin-left: 100px;
     border: 2px solid black;
     width: 300px;
+}
+
+.buttom-definition{
+    background-color: dodgerblue;
+    padding: 7px;
+    width: 100px;
+    cursor: pointer;
+    border: 2px solid black;
+    margin-top: 15px;
+
+}
+.buttom-definition:hover{
+    background-color:#46bcec ;    
 }
