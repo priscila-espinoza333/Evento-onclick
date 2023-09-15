@@ -8,8 +8,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
     background-color: darkgray;
 }
 .title{
@@ -43,4 +43,33 @@
 
 #search-button:hover {
     background-color: #dc7129;
+}
+
+.card{
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 100px;
+    border: 2px solid black;
+    width: 800px;
+}
+
+.card-like{
+    background-color: rgb(93, 189, 93);
+    margin-top: 15px;
+    border: 2px solid black;
+    cursor: pointer;
+    padding: 5px;
+    width: 80px;
+}
+
+.card-like:hover{
+    background-color: gold;
+}
+
+.definition{
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 100px;
+    border: 2px solid black;
+    width: 300px;
 }
