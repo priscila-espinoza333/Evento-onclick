@@ -13,7 +13,7 @@
         <div id="search">
             <input type="text" id="search-input" placeholder="Buscar">
         </div>
-        <button id="search-button">Login</button>
+        <button id="login-button" onclick="loginLogout(this)">Login</button>
     </div>
     <div class="container">
         <div id="cards">
@@ -22,7 +22,7 @@
                     <h2 class="card-title">ninja</h2>
                     <h4>noun</h4>
                     <h5>plural ninjas</h5>
-                    <button class="card-like">13 Likes</button>
+                    <button class="card-like" onclick="darLike(this)">13 Likes</button>
                 </div>
                 <p class="card-body">A practitioner skilled in the <span class="subrayado">Japanese</span> art of <span class="subrayado">ninjutsu</span></p>
             </div>
@@ -32,14 +32,14 @@
                     <h2 class="card-title">ninja</h2>
                     <h4>noun</h4>
                     <h5>plural ninjas</h5>
-                    <button class="card-like">37 Likes</button>
+                    <button class="card-like" onclick="darLike(this)">37 Likes</button>
                 </div>
                 <p class="card-body">A <span class="subrayado">programmer</span> who breaks down problems with <span class="subrayado">zen</span>-like focus</p>
             </div>
         </div>
 
         <div class="definition"> Dojonary is defined by YOU
-            <button class="buttom-definition">Add Definition</button>
+            <button class="buttom-definition" onclick="removeButton(this)">Add Definition</button>
         </div>
     </div>
     

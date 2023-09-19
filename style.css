@@ -33,7 +33,7 @@
     margin-right: 35px;
 }
 
-#search-button{
+#login-button{
     background-color: rgb(224, 208, 66);
     border: 2px solid black;
     cursor: pointer;
@@ -41,7 +41,7 @@
     padding: 5px;
 }
 
-#search-button:hover {
+#login-button:hover {
     background-color: #dc7129;
 }
 /*tarjetas*/
